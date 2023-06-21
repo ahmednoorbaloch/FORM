@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body style="background-color: aqua;">
+    <fieldset>
+        <center><h1>Student Registration Form</h1></center>
+    
+    </fieldset>
+    <br>
+    
+    <form action="congrats.html">
+    <table>
+    
+        <!--Personal information-->
+        <tr>
+            <td>
+                <label for="name">Name :</label>
+            </td>
+            <td>
+                <label for="name"><input id="name" type="text" placeholder="Enter full name"></label>
+            </td>
+        </tr>
+    
+        
+        <tr>
+            <td>
+                <label for="fname">Father's Name : </label>
+            </td>
+            <td><label for="fname"><input id="fname" type="text" name="Father's Name :"></label>
+            </td>
+        </tr>
+       
+       
+        <tr>
+            <td><label for="mname">Mother's Name :</label>
+            </td>
+            <td><label for="mname"><input id="mname" type="text" name="Mother's Name :"></label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><label for="pnum">Phone Number :</label>
+            </td>
+            <td><label for="pnum"></label><input id="pnum" type="password" required type="password" maxlength="11">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email :</label></td>
+            <td><label for="email"></label><input id="email" type="user email"  required type="email" placeholder="sample@exemple.com">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Gender : </td>
+            <td><label for="male">male</label><input type="radio" name="Gender" id="male" value="male">
+                <label for="female">female</label><input type="radio" name="Gender" id="female" value="female">
+                <label for="other">other</label><input type="radio" name="Gender" id="other" value="other">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Date of birth :</td>
+            <td><label for="dob"></label> <input type="date" id="dob" >-(dd-mm-yyyy)
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="add"> Address :</label></td>
+            <td><label for="add"><input type="text" name="Address" placeholder="street - House - Road" id="add" size="35"></label></td>
+        </tr>
+
+        <tr>
+            <td> Blood Group :</td>
+            <td><select name="drop-down" id="bg">
+                <option value="A">A</option>
+                <option value="A+">A+</option>
+                <option value="B">B</option>
+                <option value="B-">B-</option>
+                <option value="O">O</option>
+                <option value="O+">O+</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td> Department :</td>
+            <td><label for="dep">CSE</label><input type="radio" name=" Department :" id="dep">
+                <label for="dep">EEE</label><input type="radio" name="Department" id="dep">
+                <label for="dep">BBA</label><input type="radio" name="Department" id="dep">
+            </td>
+        </tr>
+
+        <tr>
+            <td> Course :</td>
+            <td><label for="C">C<input id="C" type="checkbox" name="Course" value="C"></label>
+                <label for="C++">C++ <input id="C++" type="checkbox" name="Course" value="C++"></label>
+                <label for="JAVA">JAVA <input id="JAVA" type="checkbox" name="Course" value="JAVA"></label>
+                <label for="AI">AI <input id="AI" type="checkbox" name="Course" value="AI"></label>
+                <label for="Machine learning">Machine learning<input type="checkbox" id="Machine learning" name="Course" value="Machine learning"></label>
+                <label for="Robotics">Robotics <input id="Robotics" type="checkbox" name="Course" value="Robotics"></label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Photo:</td>
+            <td><label for="Photo:">Photo: <input id="Photo:" type="file"></label>
+            </td>
+        </tr>
+        
+
+        <tr>
+            <td><input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </td>
+        </tr>
+    
+  
+    </table>
+
+</form>
+</body>
+</html>
